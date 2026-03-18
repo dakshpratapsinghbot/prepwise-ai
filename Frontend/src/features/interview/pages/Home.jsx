@@ -142,7 +142,7 @@ const Home = () => {
             <footer className='page-footer'>
                 <a href='#'>Privacy Policy</a>
                 <a href='#'>Terms of Service</a>
-                <a href='#'>Help Center</a>
+                <a href='#'>dakshpratapsingh</a>
             </footer>
         </div>
     )

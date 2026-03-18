@@ -1,100 +1,107 @@
-# Interview AI
+# PrepWise AI 🚀
 
-Interview AI is a small full-stack project that helps students prepare for interviews.
-The application uses AI to analyze a user's resume and job description and then generates interview questions, skill gap suggestions, and a preparation plan.
+PrepWise AI is a full-stack web application designed to help students and job seekers prepare smarter for interviews using AI.
 
-This project was built mainly for learning full-stack development and understanding how AI APIs can be integrated into web applications.
+The platform analyzes your resume along with a job description and generates personalized interview questions, identifies skill gaps, and provides a structured preparation roadmap.
 
-## Features
+This project was built to explore full-stack development and integrate AI into real-world applications.
 
-* User registration and login
-* Upload resume (PDF)
-* Enter job description and personal background
-* AI generates an interview preparation report
-* Suggested technical and behavioral interview questions
-* Skill gap analysis
-* Simple preparation roadmap
-* Download resume as PDF
-* View previous interview reports
+---
 
-## Tech Stack
+## ✨ Features
 
-**Frontend**
+* 🔐 User Authentication (Login & Register)
+* 📄 Resume Upload (PDF support)
+* 🧠 AI-powered Interview Preparation Report
+* ❓ Technical & Behavioral Interview Questions
+* 📊 Skill Gap Analysis
+* 🗺️ Personalized Preparation Roadmap
+* 📥 Download Resume as PDF
+* 📚 View Previous Reports
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
 
 * React
 * React Router
 * Vite
 * Axios
 
-**Backend**
+### Backend
 
 * Node.js
 * Express.js
 * MongoDB
 * Mongoose
 
-**Other Tools**
+### Tools & Integrations
 
-* Google Gemini API (for AI responses)
+* Google Gemini API (AI responses)
 * JWT Authentication
-* Multer (file upload)
-* Puppeteer (PDF generation)
+* Multer (File Uploads)
+* Puppeteer (PDF Generation)
 
-## How to Run the Project
+---
 
-### 1. Clone the repository
+## ⚙️ Installation & Setup
 
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/yourusername/prepwise-ai.git
+cd prepwise-ai
 ```
-git clone https://github.com/yourusername/interview-ai.git
-cd interview-ai
-```
 
-### 2. Setup Backend
+---
 
-```
+### 2️⃣ Backend Setup
+
+```bash
 cd Backend
 npm install
 ```
 
-Create a `.env` file inside the Backend folder.
+Create a `.env` file inside the Backend folder:
 
-```
+```env
 MONGO_URI=your_mongodb_connection
 GOOGLE_GENAI_API_KEY=your_gemini_api_key
 JWT_SECRET=your_secret_key
 PORT=3000
 ```
 
-Start backend server:
+Run backend:
 
-```
+```bash
 npm run dev
 ```
 
-### 3. Setup Frontend
+---
 
-```
+### 3️⃣ Frontend Setup
+
+```bash
 cd Frontend
 npm install
 npm run dev
 ```
 
-Frontend will run on:
+---
+
+## 🌐 Running URLs
+
+* Frontend: http://localhost:5173
+* Backend: http://localhost:3000
+
+---
+
+## 📂 Project Structure
 
 ```
-http://localhost:5173
-```
-
-Backend will run on:
-
-```
-http://localhost:3000
-```
-
-## Project Structure
-
-```
-interview-ai
+prepwise-ai
 │
 ├── Backend
 │   ├── controllers
@@ -110,26 +117,40 @@ interview-ai
 │   └── styles
 ```
 
-## How the App Works
+---
 
-1. User registers or logs in.
-2. User uploads a resume and adds job description.
-3. The backend sends this information to Gemini AI.
-4. AI generates interview questions, match score, and improvement suggestions.
-5. The report is stored in the database and shown to the user.
+## ⚡ How It Works
 
-## Future Improvements
+1. User registers or logs in
+2. Uploads resume + enters job description
+3. Backend sends data to Gemini AI
+4. AI generates:
 
-Some things that can be added in the future:
+   * Interview Questions
+   * Match Score
+   * Skill Improvement Suggestions
+5. Report is stored and displayed to the user
 
-* Mock interview simulation
-* Video interview practice
-* Better UI design
-* Support for DOCX resumes
-* Interview performance tracking
+---
 
-## Author
+## 🚀 Future Enhancements
 
-Kunal Pratap Singh
+* 🎤 Mock Interview Simulation
+* 📹 Video Interview Practice
+* 🎨 Improved UI/UX
+* 📄 DOCX Resume Support
+* 📈 Interview Performance Tracking
 
-This project was created as a learning project to practice full-stack development and AI integration.
+---
+
+## 👨‍💻 Author
+
+**Daksh Pratap Singh**
+
+This project was built as a learning project to practice full-stack development and AI integration.
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
